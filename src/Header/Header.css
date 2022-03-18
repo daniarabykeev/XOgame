@@ -1,0 +1,100 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 60px;
+  color: rgb(14, 6, 6);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+}
+
+.header__main{
+  display: flex;
+  justify-content: center;
+}
+
+.game-score {
+  padding-right: 100px;
+}
+
+.game-score>span {
+  display: inline-block;
+  color: rgb(12, 1, 1);
+  margin-bottom: 5px;
+}
+
+.game-score ul {
+  list-style: none;
+}
+
+.game-score li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+}
+
+.game-score ul span {
+  color: rgb(5, 1, 1);
+  font-size: 20px;
+}
+
+.btn-new-game button {
+  padding: 30px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: rgb(20, 163, 51);
+  box-shadow: 0 3px 20px 0 rgb(115, 221, 181);
+  font-size: 18px;
+}
+.btn-new-game button:hover {
+  background-color: rgb(70, 238, 70);
+}
+
+.btn-new-game button:active {
+  background-color: rgb(0, 225, 233);
+}
+
+.first-move {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-move span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: rgb(255, 200, 154);
+}
+
+.first-move button {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  padding: 5px 20px;
+}
+
+.first-move button:first-child {
+  border-right: 2px solid rgb(7, 82, 0);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.first-move button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header .first-move button.active {
+  background-color: rgb(15, 177, 0);
+  color: #fff;
+  padding: 4px 20px 4px 19px;
+}
+
+.first-move button:hover {
+  background-color: rgb(15, 177, 0);
+}

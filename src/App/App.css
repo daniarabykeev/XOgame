@@ -1,0 +1,36 @@
+body{
+
+  /* background-image: url(../img/xo.jpeg); */
+}
+.grid {
+  width: 450px;
+  height: 450px;
+  border: 1px solid rgb(10, 0, 0);
+  margin: 50px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell.bisque {
+  color: white;
+  background-color: rgb(245, 6, 6);
+  background-image: url(../img/X.jpeg);
+  background-size: cover;
+}
+.cell.skyblue {
+  color: white;
+  /* background-color: rgb(6, 2, 245); */
+  background-image: url(../img/O2.png);
+  background-size: cover;
+}
